@@ -7,9 +7,12 @@ requires-python = ">=3.12"
 dependencies = [
     "asyncpg>=0.30.0",
     "nicegui[highcharts]>=2.19.0",
+    "openai>=1.99.9",
     "psycopg2-binary>=2.9.10",
     "pytest-asyncio>=1.0.0",
     "pytest-selenium>=4.1.0",
+    "python-ffmpeg>=2.0.12",
+    "python-multipart>=0.0.20",
     "sqlmodel>=0.0.24",
 ]
 
